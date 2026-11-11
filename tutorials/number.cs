@@ -1,0 +1,10 @@
+int a=18;
+int b=5;
+int sum = a + b;
+int difference = a - b;
+int product = a * b;
+double quotient = (double)a / b;
+Console.WriteLine($"Sum: {sum}");
+Console.WriteLine($"Difference: {difference}");
+Console.WriteLine($"Product: {product}");
+Console.WriteLine($"Quotient: {quotient}");
