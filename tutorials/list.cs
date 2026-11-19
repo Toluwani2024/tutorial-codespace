@@ -3,5 +3,5 @@ names.Add ("Alice");
 names.Add ("Bob");
 names.Add ("Charlie");
 foreach (string name in names) {
-    Console.WriteLine ("Hello, " + name + "!  ");
+    Console.WriteLine ($"Hello, {name.ToUpper()}!" );
 }   
